@@ -1,7 +1,10 @@
 import React from 'react'
-import user1 from './images/user1.jpeg'
-import user2 from './images/user2.jpeg'
-import user3 from './images/user3.jpeg'
+import who1 from './images/who.jpeg'
+import who2 from './images/who.jpeg'
+import who3 from './images/who.jpeg'
+import who4 from './images/who.jpeg'
+import who5 from './images/who.jpeg'
+import who6 from './images/who.jpeg'
 import './Testimonials.css'
 import Hero from './Hero'
 
@@ -14,19 +17,19 @@ const Testimonials = () => {
                 <h3>Talk Sessions</h3>
                 <div className='content'>
                     <div className='card'>
-                        <img src={user1} alt='user1'/>
+                        <img src={who1} alt='who'/>
                         <p>Description</p>
                         <p><span>Speaker - 1</span></p>
                         <p>About speaker</p>
                     </div>
                     <div className='card'>
-                        <img src={user2} alt='user1'/>
+                        <img src={who2} alt='who'/>
                         <p>Description</p>
                         <p><span>Speaker - 2</span></p>
                         <p>About speaker</p>
                     </div>
                     <div className='card'>
-                        <img src={user3} alt='user1'/>
+                        <img src={who3} alt='who'/>
                         <p>Description</p>
                         <p><span>Speaker - 3</span></p>
                         <p>About speaker</p>
@@ -35,28 +38,32 @@ const Testimonials = () => {
                 <h3>Workshops</h3>
                 <div className='content'>
                     <div className='card'>
-                        <img src={user1} alt='user1'/>
+                        <img src={who4} alt='who'/>
                         <p>Description</p>
                         <p><span>Speaker - 1</span></p>
                         <p>About speaker</p>
                         <a href="#"><button class="button">Register</button></a>
                     </div>
                     <div className='card'>
-                        <img src={user2} alt='user1'/>
+                        <img src={who5} alt='who'/>
                         <p>Description</p>
                         <p><span>Speaker - 2</span></p>
                         <p>About speaker</p>
                         <a href="#"><button class="button">Register</button></a>
                     </div>
                     <div className='card'>
-                        <img src={user3} alt='user1'/>
+                        <img src={who6} alt='who'/>
                         <p>Description</p>
                         <p><span>Speaker - 3</span></p>
                         <p>About speaker</p>
                         <a href="#"><button class="button">Register</button></a>
                     </div>
                 </div>
-                Cultural Event details
+                <h3>Cultural Events</h3>
+                <p><strong>FISAT Moves </strong>: Experience the rhythm and energy of our very own dance troupe, FISAT Moves.Whether you love classical moves or high-energy beats, FISAT Moves promises to get your feet tapping and your heart racing.</p>
+                <p><strong>FISAT Band</strong>: The FISAT Band will take you on a musical journey with a mix of classic rock, soulful ballads, and energetic pop hits. Known for their electrifying performances, the band members bring their unique talents together to create an unforgettable experience. With powerful vocals, thrilling guitar solos, and infectious rhythms, the FISAT Band is set to be the highlight of the night, delivering tunes that will resonate with every music lover.
+
+</p>
             </div>
         </div>
     )

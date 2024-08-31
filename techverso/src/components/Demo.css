@@ -38,7 +38,16 @@
     margin: auto;
 }
 
+.col-2 p {
+    line-height: 1.6; /* Adjust the value as needed (e.g., 1.5, 1.6, 1.8, etc.) */
+    font-size: 1.1rem; /* Optional: Adjust the font size for better readability */
+    color: #333; /* Optional: Ensure the text color is easy to read */
+    margin-bottom: 1rem; /* Optional: Add some spacing after the paragraph */
+}
 
+.col-2 p strong {
+    color: #000; /* Optional: Bold text in a strong tag can have a different color for emphasis */
+}
 @media screen and (max-width: 940px) {
     .demo .container {
         max-width: 100%;
