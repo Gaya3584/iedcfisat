@@ -41,7 +41,7 @@
 .col-2 p {
     line-height: 1.6; /* Adjust the value as needed (e.g., 1.5, 1.6, 1.8, etc.) */
     font-size: 1.1rem; /* Optional: Adjust the font size for better readability */
-    color: #333; /* Optional: Ensure the text color is easy to read */
+    color: #070101; /* Optional: Ensure the text color is easy to read */
     margin-bottom: 1rem; /* Optional: Add some spacing after the paragraph */
 }
 

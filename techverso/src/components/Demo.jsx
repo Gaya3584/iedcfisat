@@ -26,9 +26,8 @@ const Demo = () => {
     return (
         <div className='demo' id='demo'>
             <div className='container'>
-                <div className='col-1'>
-                    <p><u>Contact Us</u></p>
-                    
+                <div className="col-1">
+                    <p>Contact Us</p>
                     <form onSubmit={handleSubmit}>
                         <label htmlFor='name'>Name</label>
                         <input
@@ -37,9 +36,8 @@ const Demo = () => {
                             name='name'
                             value={formData.name}
                             onChange={handleChange}
-                            required
-                        />
-                        
+                            required />
+
                         <label htmlFor='college'>College</label>
                         <input
                             type='text'
@@ -47,19 +45,17 @@ const Demo = () => {
                             name='college'
                             value={formData.college}
                             onChange={handleChange}
-                            required
-                        />
-                        
+                            required />
+
                         <label htmlFor='contact'>Contact No.</label>
                         <input
-                            type='tel'
+                            type='text'
                             id='contact'
                             name='contact'
                             value={formData.contact}
                             onChange={handleChange}
-                            required
-                        />
-                        
+                            required />
+
                         <label htmlFor='question'>Question?</label>
                         <textarea
                             id='question'
@@ -69,25 +65,27 @@ const Demo = () => {
                             rows='4'
                             required
                         ></textarea>
-                        
+
                         <button type='submit'>Submit</button>
                     </form>
 
+
+                </div>
+                <div className='col-2'>
+
+                    <p><strong>Date </strong>: September <br /><strong>Venue</strong> : FISAT Angamaly<br />Don’t miss out! Register now to secure your spot at this incredible event.</p>
+                    <h3>We can’t wait to see you there! Let’s create the future together at Techverso 2024.</h3><br/>
                     <p>
-                        MAIL: iedcfisat@gmail.com<br/>
-                        VISHWAM SAJEEV: (+91)7034667695<br/>
+                        Mail:<a href="iedcfisat@gmail.com"> iedcfisat@gmail.com </a> <br />
+                        VISHWAM SAJEEV: (+91)7034667695<br />
                         NANDAKISHORE: (+91)7594993674
                     </p>
-                </div>
-                
-                <div className='col-2'>
-           
-                    <p><strong>Date </strong>: September <br/><strong>Venue</strong> : FISAT Angamaly<br/>Don’t miss out! Register now to secure your spot at this incredible event.</p>
-                    <h3>We can’t wait to see you there! Let’s create the future together at Techverso 2024.</h3>
-                    <img src={prev} alt='prev' width="auto" height="auto"/>
+                    <img src={prev} alt='prev' width="auto" height="auto" />
+                    <br/>
                 </div>
             </div>
         </div>
+
     );
 };
 

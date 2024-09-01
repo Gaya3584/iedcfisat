@@ -14,7 +14,7 @@ const About = () => {
             <div className='container'>
             <img src={des} alt='des' width="500px" height="auto" />
                 <div className='col-2'>
-                    <u><h2>About</h2></u>
+                    <h2>About</h2>
                     <span className='line'></span>
                     <p>Welcome to Techverso, an inspiring initiative by the <strong>Innovation and Entrepreneurship Development Cell (IEDC)</strong> at FISAT College. This event is designed to ignite the entrepreneurial spirit within students, offering a dynamic platform where innovation meets opportunity.At Techverso, we believe in empowering the next generation of entrepreneurs. Our event is a convergence of brilliant minds, innovative ideas, and the drive to create impactful change. Whether you're an aspiring entrepreneur or a seasoned innovator, Techverso provides the perfect environment to network, learn, and grow.</p>
                     <p>Techverso is more than just an event , it's a movement to inspire and equip students with the skills and mindset to succeed in the fast-paced world of innovation.</p>

@@ -12,7 +12,7 @@ const Testimonials = () => {
     return (
         <div className='testimonials' id='testimonials'>
             <div className='container'>
-                <u><h2>Events</h2></u>
+                <h2>Events</h2>
                 <span className='line'></span>
                 <h3>Talk Sessions</h3>
                 <div className='content'>
