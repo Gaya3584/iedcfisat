@@ -78,7 +78,7 @@ const Demo = () => {
                     <p>
                         Mail:<a href="iedcfisat@gmail.com"> iedcfisat@gmail.com </a> <br />
                         VISHWAM SAJEEV: (+91)7034667695<br />
-                        NANDAKISHORE: (+91)7594993674
+                        NANDAKISHOR K: (+91)7594993674
                     </p>
                     <img src={prev} alt='prev' width="auto" height="auto" />
                     <br/>
